@@ -13,8 +13,5 @@ class UserController extends Controller
         echo $echostr;die;
     }
 
-    public function add()
-    {
-    	echo  124;
-    }
+ 
 }
