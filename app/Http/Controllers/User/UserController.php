@@ -11,6 +11,10 @@ class UserController extends Controller
     {
         $echostr = $request -> input('echostr');
         echo $echostr;die;
-        //rtyrhtrtrthrhgt
+    }
+
+    public function add()
+    {
+    	echo  124;
     }
 }

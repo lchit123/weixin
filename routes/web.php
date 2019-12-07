@@ -18,3 +18,5 @@ Route::get('/', function () {
 
 Route::any('user/index','User\\UserController@index');
 
+Route::any('user/add','User\\UserController@add');
+
