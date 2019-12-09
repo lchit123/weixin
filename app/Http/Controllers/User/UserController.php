@@ -9,9 +9,9 @@ class UserController extends Controller
 {
      public function  index(Request $request)
     {
-        $echostr = $request -> input('echostr');
+       $echostr = $request -> input('echostr');
         echo $echostr;die;
     }
 
- 
+
 }

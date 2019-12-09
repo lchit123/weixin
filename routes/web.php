@@ -16,7 +16,7 @@ Route::get('/', function () {
     return view("welcome");
 });
 
-Route::any('user/index','User\\UserController@index');
+Route::any('/user/index','User\UserController@index');
 
-Route::any('user/add','User\\UserController@add');
+Route::any('/user/add','User\UserController@add');
 
